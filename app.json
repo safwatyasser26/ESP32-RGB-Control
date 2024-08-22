@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "rgb_controller",
+    "slug": "rgb_controller",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/rgb.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/rgb.png",
+        "backgroundColor": "#000"
+      },
+      "package": "com.bronzebomber.rgb_controller"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "8c447032-c0e0-482a-97f5-fc21cab82e2b"
+      }
+    }
+  }
+}
